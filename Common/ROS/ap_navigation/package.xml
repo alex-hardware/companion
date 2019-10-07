@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ap_navigation</name>
+  <version>0.0.0</version>
+  <description>The ap_navigation package</description>
+
+  <!-- One maintainer tag required, multiple allowed, one person per tag -->
+  <maintainer email="rmackay9@yahoo.com">Randy Mackay</maintainer>
+
+
+  <!-- One license tag required, multiple allowed, one license per tag -->
+  <license>GPLv3</license>
+
+  <!-- Url tags are optional, but multiple are allowed, one per tag -->
+  <!-- Optional attribute type can be: website, bugtracker, or repository -->
+  <!-- Example: -->
+  <!-- <url type="website">http://wiki.ros.org/ap_navigation</url> -->
+
+
+  <!-- Author tags are optional, multiple are allowed, one per tag -->
+  <!-- Authors do not have to be maintainers, but could be -->
+  <author email="mario@elab.co.jp">Mario Rodriguez</author>
+
+
+  <!-- The *depend tags are used to specify dependencies -->
+  <!-- Dependencies can be catkin packages or system dependencies -->
+  <buildtool_depend>catkin</buildtool_depend>
+  <exec_depend>move_base</exec_depend>
+  <exec_depend>mavros</exec_depend>
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>
